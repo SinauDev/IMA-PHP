@@ -130,7 +130,7 @@ function ImageProcessing($filenamePath, $method, $option)
 			break;
 		case 2:
 			$methodText = "resize";
-			$methodInfo = "Cesizing";
+			$methodInfo = "Resizing";
 			break;
 		case 3:
 			$methodText = "rotate";
