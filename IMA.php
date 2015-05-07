@@ -154,6 +154,7 @@ function ImageProcessing($filenamePath, $method, $option)
 			
 	}
 	echo "IMA-PHP by aancw\n";
+	echo "Zebra_Image CLI Version\n";
 	echo "Processing image " . $image->source_path ."\n";
 	
 	$image->target_path = 'results/'.$filename. "-" .$methodText. "." . $ext;
